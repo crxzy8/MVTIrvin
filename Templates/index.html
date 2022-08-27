@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVTIrvin</title>
+</head>
+<body>
+    
+    <h1>Lista de Nombre</h1>
+    {% for i in Nombres %}
+    <h2>Nombre: {{ i }}</h2>
+    {% endfor %}
+    
+    <h1>Edades</h1>
+    {% for j in Edades %}
+    <h2>{{ j }}</h2>
+    {% endfor %}
+    
+    <h1>Fechas de Nacimiento</h1>
+    {% for x in Fechas %}
+    <h2>{{ x }}</h2>
+    {% endfor %}
+
+</body>
+</html>
