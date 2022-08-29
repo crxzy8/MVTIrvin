@@ -19,5 +19,5 @@ from FamiliaApp.views import fam
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', fam),
+    path('miFamilia/', fam),
 ]
